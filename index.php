@@ -1,9 +1,31 @@
-<?php include ('master/header.php')?>
-  <main class="p-6">
-    <h2 class="text-2xl font-bold mb-4">Tailwind CSS via CDN</h2>
-    <p class="text-lg mb-4">This is a simple webpage styled with Tailwind CSS from the CDN.</p>
-    <button class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Click Me</button>
-  </main>
-  
+<?php include('master/header.php') ?>
+<main class="">
+  <div class="hero-slider owl-carousel">
 
-  <?php include ('master/footer.php')?>
+    <!-- Hero Slider -->
+    <div class="relative w-full overflow-hidden">
+      <!-- Slider Container -->
+      <div class="flex transition-transform duration-500 ease-in-out">
+        <!-- Slide 1 -->
+        <div class="w-full flex-shrink-0 relative">
+          <img src="assets/images/slider/s1.jpg" alt="Slide 1" class="object-cover w-full h-64">
+          <div class="absolute inset-0 flex items-center justify-center text-white text-center">
+            <h2 class="text-3xl">Welcome to Our Website</h2>
+            <p>Your journey begins here</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="w-full flex-shrink-0 relative">
+          <img src="assets/images/slider/s2.jpg" alt="Slide 2" class="object-cover w-full h-64">
+          <div class="absolute inset-0 flex items-center justify-center text-white text-center">
+            <h2 class="text-3xl">Explore Our Services</h2>
+            <p>Discover what we offer</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+
+
+    <?php include('master/footer.php') ?>

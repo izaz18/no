@@ -13,19 +13,24 @@
 </head>
 
 <body class="bg-gray-100 text-gray-900">
-    <header class="">
-        <nav class="bg-blue-600 p-4">
+    <header class="px-4 py-2">
+        <nav class="bg-gray-100">
             <div class="max-w-7xl mx-auto flex justify-between items-center">
 
                 <!-- Logo -->
-                <a href="#" class="text-2xl font-bold text-white">NO</a>
+                <a href="#" class="text-2xl font-bold text-white">
+                    <img src="assets/images/logo.png" alt="logo" class="w-24 md:w-48 h-auto">
+                </a>
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-6">
-                    <a href="#" class="text-white hover:text-gray-300">Home</a>
-                    <a href="#" class="text-white hover:text-gray-300">About</a>
-                    <a href="#" class="text-white hover:text-gray-300">Services</a>
-                    <a href="#" class="text-white hover:text-gray-300">Contact</a>
+                    <a href="#" class="text-lg font-semibold text-gray-800 hover:text-green-600">Home</a>
+                    <a href="#" class="text-lg font-semibold text-gray-800 hover:text-green-600">Products</a>
+                    <a href="#" class="text-lg font-semibold text-gray-800 hover:text-green-600">Certification</a>
+                    <a href="#" class="text-lg font-semibold text-gray-800 hover:text-green-600">Downloads</a>
+                    <a href="#" class="text-lg font-semibold text-gray-800 hover:text-green-600">Contact</a>
+                    <a href="#" class="text-lg font-semibold text-gray-800 hover:text-green-600">Career</a>
+                    <a href="#" class="text-lg font-semibold text-gray-800 hover:text-green-600">News</a>
                 </div>
 
                 <!-- Mobile Menu Toggle Button -->
@@ -42,10 +47,14 @@
             <div id="mobileMenu" class="md:hidden hidden">
                 <div class="space-y-4 py-4">
                     <a href="#" class="block text-white hover:text-gray-300 px-4">Home</a>
-                    <a href="#" class="block text-white hover:text-gray-300 px-4">About</a>
-                    <a href="#" class="block text-white hover:text-gray-300 px-4">Services</a>
+                    <a href="#" class="block text-white hover:text-gray-300 px-4">Products</a>
+                    <a href="#" class="block text-white hover:text-gray-300 px-4">Certification</a>
+                    <a href="#" class="block text-white hover:text-gray-300 px-4">Downloads</a>
                     <a href="#" class="block text-white hover:text-gray-300 px-4">Contact</a>
+                    <a href="#" class="block text-white hover:text-gray-300 px-4">Career</a>
+                    <a href="#" class="block text-white hover:text-gray-300 px-4">News</a>
                 </div>
             </div>
         </nav>
+
     </header>
